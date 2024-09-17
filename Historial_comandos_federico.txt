@@ -1,0 +1,188 @@
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cd
+mkdir repogit
+cd repogit
+git clone git@github.com:FedericoSantamaria/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+man grep
+HOME_URL
+HOME_URL/etc/os-release
+grep -i 'HOME_URL' etc/os-release
+whoami
+echo "Usuario=$(whoami)>datos_usuario.txt
+echo "usuario"=$(whoami) > datos_usuario.txt
+
+echo (
+"
+echo "usuario=$(whoami)"
+cat datos_usuario.txt
+pwd
+cd ..pdw
+ls -ltah
+cd .
+cd ..
+cd ruth
+cd ..
+pwd
+ls -ltah
+cd
+cd /
+cd
+cd /
+man pwd
+man ls
+help
+:q
+help
+q
+history
+cd
+mkdir fotos
+ls
+cd fotos/
+history > historial.txt
+ls
+cd
+cd fotos/
+cd
+ls fotos/
+ls /
+ls/bin
+ls/vep
+ls /dev
+ls /bin
+history > ./fotos/otrohistorial.txt
+ls fotos/
+ls /dev > dispositivos.txt
+cat dispositivos.txt 
+more dispositivos.txt 
+less dispositivos.txt 
+tail dispositivos.txt 
+heat dispositivos.txt 
+head dispositivos.txt 
+man
+man head
+-n 
+-l 10
+head dispositivos.txt 
+tail -3 dispositivos.txt 
+tail -4 dispositivos.txt 
+head -n dispositivos.txt 
+head -n3 dispositivos.txt 
+head dispositivos.txt -n3
+ls
+ls /dev
+ls /dev/v*
+ls /dev/v??
+ls /dev/v???
+ls -ltah /bin
+ls -ltah /temp
+ls /temp
+ls /tmp
+ls /dev/t*
+ls /bin/ 
+ls /bin/ -ltah
+ls -r /etc
+ls /etc/t*
+ls /dev/tty??
+ls /bin
+ls /tmp
+s /etc/t*
+ls /etc/t*
+s /etc/t* | sort -r
+ls /dev/tty*[1-4]
+ls /dev/t*[c1]
+history
+echo “Usuario=$(whoami)” > datos_usuario.txt
+git add .
+git init
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep <parámetro> Home_url /etc/os-release
+cd
+mkdir repogit
+cd repogit
+git clone [200~https://github.com/FedericoSantamaria/TP_AySO.git~
+git clone [200~git@github.com:FedericoSantamaria/TP_AySO.git~
+cd
+ssh-keygen
+y
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cd
+mkdir repogit
+git clone git@github.com:FedericoSantamaria/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat}
+cat /etc/os-release
+man grap
+man grep
+-i
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep home_url /etc/os-release -i
+grep -i Home_url /etc/os-release
+whoami
+echo "usuario:federico" > datos_usuario.txt
+cat datos_usuario.txt
+git add .
+git config --global user.email "federicocab.13@gmail.com"
+git config --global user.name "FedericoSantamaria"
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git status
+grep -m 1 'model name' /proc/cpuinfo
+echo "modelo_cpu: $(grep -m 1 'model name' /proc/cpuinfo | cut -d ':' -f2)" >> datos_usuario.txt
+cat datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+grep -v "nologin" /etc/passwd
+grep -v "nologin" /etc/passwd | head -n 10
+grep -v "nologin" /etc/passwd | head -n 10 | sort -t':' -k7
+grep -v "nologin" /etc/passwd | head -n 10 | sort -t':' -k7 > lista_ordenada
+rear un archivo “lista_ordenada” , obteniendo los 10 primeros usuarios ( /etc/passwd ) que el
+intérprete de comandos NO sea “nologin” , y ordenar dicha lista por el intérprete de comandos
+(Columna 7)
+Para resolver dicha consigna deberá utilizar los siguientes comandos
+grep Verificar en man, como mostrar todo lo que NO
+coincida con el string
+head filtrar las 10 primeras líneas
+sort Verificar en el man, como ordenar por la columna
+número 7
+AYUDA: puede buscar en el man el siguiente texto:
+“ordena según una determinada clave”
+o en inglés
+git add lista_ordenada
+git commit -m "ADD: Listado de usuarios ordenada"
+apropos dump | grep network
+echo "tcpdump" > comando_dump_net
+echo "apropos dump | grep network" >> comando_dump_net
+git add comando_dump_net
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+cat <<EOF > README.md
+Alumno: Federico Santamaria Agustin Division: 111 Turno: Mañana
+
+
+
+
+
+EOF
+
+cat <<EOF > README.md
+Alumno: Federico Santamaria Agustin
+Division: 111
+Turno: Mañana
+EOF
+
+git add README.md
+git commit -m "docs: Añadiendo información del alumno"
+history -a
